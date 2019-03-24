@@ -1,0 +1,64 @@
+Payment,Płatność
+To Access Point COD,Do punktu Access Point z usługą COD
+To Home COD,Do domu z usługą COD
+Save,Zapisz
+ID,Identyfikator
+Reference,Referencja
+New Client,Nowy klient
+Customer,Klient
+Total,Całkowity
+Status,Status
+Date,Data
+Delete selected,Usuń wybrane
+Delete selected items?,Usunąć wybrane elementy?
+Order ID,Identyfikator zamówienia
+Order Date,Data zamówienia
+Order Time,Czas Zamówienia
+Product,Produkt
+Delivery Address,Adres dostawy
+Shipping Service,Usługa przewozowa
+Select all,Zaznacz wszystko
+Unselect all,Odznacz wszystko
+Date,Data
+Time,Czas
+Account,konto
+Title:,Tytuł:
+Mr,Pan
+Mrs,Pani
+Ms,Pani
+Full name:,Pełna nazwa:
+Company:,Firma:
+Email:,Email:
+Phone number:,Numer telefonu:
+Address type:,Typ adresu:
+Address:,Adres:
+Street Address,Ulica
+Postal code:,Kod pocztowy:
+City:,Miasto:
+Country:,Kraj:
+Account name:,Nazwa konta:
+Account number:,Numer konta:
+Invoice number:,Numer faktury:
+Invoice amount:,Kwota faktury:
+Currency:,Waluta:
+Invoice date,Data faktury
+
+Full name:,Pełne imię i nazwisko:
+Company:,Firma:
+Email:,E-mail:
+Phone number:,Numer telefonu:
+Address:,Adres:
+Postal code:,Kod pocztowy:
+City:,Miasto:
+Country:,Kraj:
+
+Account number:,Numer konta:
+Remove,Usuń
+Add another account number,Dodaj kolejny numer konta
+Address type:,Typ adresu:
+Name:,Nazwa:
+Street Address,Ulica
+Phone:,Telefon:
+Account number,Numer konta
+Verify,Zweryfikuj
+Next,Następny
