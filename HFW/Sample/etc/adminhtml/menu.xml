@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="HFW_Sample::sample" title="HFW Sample" translate="title" module="HFW_Sample" sortOrder="30" resource="HFW_Sample::sample"/>
+		<add id="HFW_Sample::about" title="About" translate="title" module="HFW_Sample" sortOrder="0" action="hfwsample/config/about" resource="HFW_Sample::about" parent="HFW_Sample::sample"/>
+        <add id="HFW_Sample::config" title="Configuration" translate="title" module="HFW_Sample" sortOrder="1" resource="HFW_Sample::config" parent="HFW_Sample::sample"/>
+            <add id="HFW_Sample::account" dependsOnConfig="carriers/hfwsample/account" title="Account" translate="title" module="HFW_Sample" sortOrder="1" action="hfwsample/config/account" resource="HFW_Sample::account" parent="HFW_Sample::config"/>
+		<add id="HFW_Sample::manage" title="Management" translate="title" module="HFW_Sample" sortOrder="2" resource="HFW_Sample::manage" parent="HFW_Sample::sample"/>
+            <add id="HFW_Sample::info" dependsOnConfig="carriers/hfwsample/info" title="Information" translate="title" module="HFW_Sample" sortOrder="1" action="hfwsample/manage/info" resource="HFW_Sample::info" parent="HFW_Sample::manage"/>
+    </menu>
+</config>
