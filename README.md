@@ -9,12 +9,12 @@ Play with Magento Platform
 
 4. Run upgrade:
 	+ Window:
-		php c:\xampp\htdocs\magento\bin\magento setup:upgrade
-		php c:\xampp\htdocs\magento\bin\magento setup:static-content:deploy -f
-		php c:\xampp\htdocs\magento\bin\magento c:c
+		- php c:\xampp\htdocs\magento\bin\magento setup:upgrade
+		- php c:\xampp\htdocs\magento\bin\magento setup:static-content:deploy -f
+		- php c:\xampp\htdocs\magento\bin\magento c:c
 	+ Linux:
-		php bin\magento setup:upgrade
-		php bin\magento setup:static-content:deploy -f
-		php bin\magento c:c
+		- php bin\magento setup:upgrade
+		- php bin\magento setup:static-content:deploy -f
+		- php bin\magento c:c
 	
 5. If not enough permission. Please add permission to folder contain code.
