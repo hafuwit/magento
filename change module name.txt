@@ -1,0 +1,8 @@
+Module name only has two level source tree.
++ replace HFW_Sample: to HFW_SampleTest:
++ replace module="HFW_Sample" to module="HFW_SampleTest"
++ rename folder HFW_Sample to HFW_SampleTest
++ rename registration.php from HFW_Sample to HFW_SampleTest
++ rename composer.json from "HFW\\Sample\\" to "HFW\\SampleTest\\"
++ replace HFW\Sample to HFW\SampleTest
++ replace name="HFW_Sample" to name="HFW_SampleTest"
